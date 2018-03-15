@@ -31,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B490A4F205A0AFD0095E385 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B490A4F205A0AFD0095E385 /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B490A66205A173E0095E385 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		4B490A69205A173E0095E385 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		4B490A6C205A173E0095E385 /* GoogleServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleServices.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		4B490A50205A0AFD0095E385 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B490A4F205A0AFD0095E385 /* Template.app */,
+				4B490A4F205A0AFD0095E385 /* TemplateProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,9 +248,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B490A4E205A0AFD0095E385 /* Template */ = {
+		4B490A4E205A0AFD0095E385 /* TemplateProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "Template" */;
+			buildConfigurationList = 4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "TemplateProject" */;
 			buildPhases = (
 				16C53050947C8D8394BAD5E3 /* [CP] Check Pods Manifest.lock */,
 				4B490A4B205A0AFD0095E385 /* Sources */,
@@ -263,9 +263,9 @@
 			);
 			dependencies = (
 			);
-			name = Template;
+			name = TemplateProject;
 			productName = Template;
-			productReference = 4B490A4F205A0AFD0095E385 /* Template.app */;
+			productReference = 4B490A4F205A0AFD0095E385 /* TemplateProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -280,7 +280,7 @@
 				TargetAttributes = {
 					4B490A4E205A0AFD0095E385 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -297,7 +297,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B490A4E205A0AFD0095E385 /* Template */,
+				4B490A4E205A0AFD0095E385 /* TemplateProject */,
 			);
 		};
 /* End PBXProject section */
@@ -531,13 +531,17 @@
 			baseConfigurationReference = C2888E3FB123394D149168C1 /* Pods-Template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JE433ZF8VF;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ASIAN TECH COMPANY LIMITED";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASIAN TECH COMPANY LIMITED";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G72ZCJZ827;
 				INFOPLIST_FILE = "$(SRCROOT)/Template/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vinmas.Template;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.asiantech.dev.toranoco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6ab5a110-d498-40aa-bba9-faf21d70e07d";
+				PROVISIONING_PROFILE_SPECIFIER = Toranotec_InHouse_20170306;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -548,13 +552,17 @@
 			baseConfigurationReference = ED50CEF7A93F3452F6AA38CC /* Pods-Template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JE433ZF8VF;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ASIAN TECH COMPANY LIMITED";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ASIAN TECH COMPANY LIMITED";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = G72ZCJZ827;
 				INFOPLIST_FILE = "$(SRCROOT)/Template/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vinmas.Template;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.asiantech.dev.toranoco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6ab5a110-d498-40aa-bba9-faf21d70e07d";
+				PROVISIONING_PROFILE_SPECIFIER = Toranotec_InHouse_20170306;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -572,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "Template" */ = {
+		4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "TemplateProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B490A62205A0AFD0095E385 /* Debug */,
