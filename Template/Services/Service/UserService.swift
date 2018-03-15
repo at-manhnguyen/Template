@@ -52,13 +52,13 @@ class UserService: BaseService {
             switch encodingResult {
             case .success(let upload, _, _):
                 upload.responseString(completionHandler: { response in
-                    if let result = response.result.value {
+                    if let _ = response.result.value {
                         
                     } else {
                         
                     }
                 })
-            case .failure(let _):
+            case .failure (_):
                return
             }
         }

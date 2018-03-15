@@ -38,7 +38,6 @@ class UserObject: NSObject, Mappable {
         phoneNumber <- map["phone"]
         email <- map["email"]
         address <- map["google_address"]
-        nation.id <- map["nation_id"]
     }
     
     static var isLogin: Bool {
@@ -58,7 +57,6 @@ class UserObject: NSObject, Mappable {
         UserDefaults.standard.set(userObject?.phoneNumber, forKey: Strings.UserPhone)
         UserDefaults.standard.set(userObject?.email, forKey: Strings.UserEmail)
         UserDefaults.standard.set(userObject?.address, forKey: Strings.UserAddress)
-        UserDefaults.standard.set(userObject?.nation.id, forKey: Strings.UserNationID)
     }
     
     static func logout() {
@@ -69,7 +67,6 @@ class UserObject: NSObject, Mappable {
         UserDefaults.standard.set(nil, forKey: Strings.UserPhone)
         UserDefaults.standard.set(nil, forKey: Strings.UserEmail)
         UserDefaults.standard.set(nil, forKey: Strings.UserAddress)
-        UserDefaults.standard.set(nil, forKey: Strings.UserNationID)
     }
     
     static func getUserObject() -> UserObject? {
@@ -80,7 +77,6 @@ class UserObject: NSObject, Mappable {
         userObject.phoneNumber = UserDefaults.standard.value(forKey: Strings.UserPhone) as? String ?? ""
         userObject.email = UserDefaults.standard.value(forKey: Strings.UserEmail) as? String ?? ""
         userObject.address = UserDefaults.standard.value(forKey: Strings.UserAddress) as? String ?? ""
-        userObject.nation.id = UserDefaults.standard.value(forKey: Strings.UserNationID) as? Int ?? 0
         
         return userObject
     }

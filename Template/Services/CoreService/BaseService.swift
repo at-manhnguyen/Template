@@ -44,7 +44,7 @@ class BaseService: NSObject {
     
     static func showLoading() {
         if let topViewController = UIApplication.topViewController() {
-            activityIndicatorView.hidesWhenStopped
+            activityIndicatorView.hidesWhenStopped = true
             activityIndicatorView.startAnimating()
             topViewController.view.addSubview(activityIndicatorView)
         }
