@@ -24,6 +24,7 @@
 		4B490A9F205A173F0095E385 /* Foundation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A87205A173F0095E385 /* Foundation+Extensions.swift */; };
 		4B490AA1205A17FD0095E385 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B490AA0205A17FD0095E385 /* SplashScreen.xib */; };
 		4B490AA3205A20530095E385 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490AA2205A20530095E385 /* UserObject.swift */; };
+		4B490AA6205A2AC20095E385 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490AA5205A2AC20095E385 /* BaseViewController.swift */; };
 		8B5227C4473F56882DD7B496 /* Pods_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B1082B18278654B5534C2F /* Pods_Template.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		4B490A87205A173F0095E385 /* Foundation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extensions.swift"; sourceTree = "<group>"; };
 		4B490AA0205A17FD0095E385 /* SplashScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
 		4B490AA2205A20530095E385 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		4B490AA5205A2AC20095E385 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A3B1082B18278654B5534C2F /* Pods_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2888E3FB123394D149168C1 /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
 		ED50CEF7A93F3452F6AA38CC /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		4B490A80205A173F0095E385 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B490AA4205A2AB30095E385 /* BaseViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,6 +204,14 @@
 				4B490AA2205A20530095E385 /* UserObject.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4B490AA4205A2AB30095E385 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B490AA5205A2AC20095E385 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 		CF98567D4FA262D896D15DA1 /* Frameworks */ = {
@@ -339,7 +350,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Template/Pods-Template-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftUtils/SwiftUtils.framework",
 			);
@@ -347,7 +357,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftUtils.framework",
 			);
@@ -368,6 +377,7 @@
 				4B490A91205A173F0095E385 /* Strings.swift in Sources */,
 				4B490AA3205A20530095E385 /* UserObject.swift in Sources */,
 				4B490A89205A173F0095E385 /* BaseService.swift in Sources */,
+				4B490AA6205A2AC20095E385 /* BaseViewController.swift in Sources */,
 				4B490A9A205A173F0095E385 /* AppDelegate.swift in Sources */,
 				4B490A9F205A173F0095E385 /* Foundation+Extensions.swift in Sources */,
 				4B490A96205A173F0095E385 /* APIPath.swift in Sources */,
