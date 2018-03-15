@@ -3,20 +3,25 @@ PODS:
   - AlamofireObjectMapper (5.0.0):
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 3.0)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
   - ObjectMapper (3.1.0)
   - SwiftUtils (4.0.1)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
+  - NVActivityIndicatorView
   - SwiftUtils
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   SwiftUtils: b009d391fb2e285392f114238f8b55d2750b80f0
 
-PODFILE CHECKSUM: 423e3b4e642313b0a13c0b8d3cae351e3fc6fc79
+PODFILE CHECKSUM: add1731c99b9f387fd580badd505b32d11bda2ae
 
 COCOAPODS: 1.4.0

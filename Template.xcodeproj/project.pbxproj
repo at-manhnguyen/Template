@@ -31,7 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B490A4F205A0AFD0095E385 /* TemplateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B490A4F205A0AFD0095E385 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B490A66205A173E0095E385 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		4B490A69205A173E0095E385 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		4B490A6C205A173E0095E385 /* GoogleServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleServices.swift; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		4B490A50205A0AFD0095E385 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B490A4F205A0AFD0095E385 /* TemplateProject.app */,
+				4B490A4F205A0AFD0095E385 /* Template.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,9 +248,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B490A4E205A0AFD0095E385 /* TemplateProject */ = {
+		4B490A4E205A0AFD0095E385 /* Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "TemplateProject" */;
+			buildConfigurationList = 4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "Template" */;
 			buildPhases = (
 				16C53050947C8D8394BAD5E3 /* [CP] Check Pods Manifest.lock */,
 				4B490A4B205A0AFD0095E385 /* Sources */,
@@ -263,9 +263,9 @@
 			);
 			dependencies = (
 			);
-			name = TemplateProject;
+			name = Template;
 			productName = Template;
-			productReference = 4B490A4F205A0AFD0095E385 /* TemplateProject.app */;
+			productReference = 4B490A4F205A0AFD0095E385 /* Template.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -297,7 +297,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B490A4E205A0AFD0095E385 /* TemplateProject */,
+				4B490A4E205A0AFD0095E385 /* Template */,
 			);
 		};
 /* End PBXProject section */
@@ -365,6 +365,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Template/Pods-Template-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftUtils/SwiftUtils.framework",
 			);
@@ -372,6 +373,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftUtils.framework",
 			);
@@ -580,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "TemplateProject" */ = {
+		4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B490A62205A0AFD0095E385 /* Debug */,

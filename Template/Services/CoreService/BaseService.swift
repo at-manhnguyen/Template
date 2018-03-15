@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import SwiftUtils
 import Alamofire
+import NVActivityIndicatorView
 
 typealias Completion = (Any?, Error?) -> Void
 
 class BaseService: NSObject {
-
-    static var activityIndicatorView = UIActivityIndicatorView.init(activityIndicatorStyle: UIActivityIndicatorViewStyle.gray)
+    
+    static var activityIndicatorView = NVActivityIndicatorView(frame: CGRect(x: (kScreenSize.width - 60)/2, y: (kScreenSize.height - 60)/2, width: 60, height: 60), type: NVActivityIndicatorType.ballRotateChase, color: Colors.MainColor, padding: nil)
     
     static func connectWebService (apiPath: String?, method: HTTPMethod, parameters: Parameters?, completion: Completion?) {
         if let apiPath = apiPath, let completion = completion {
@@ -44,9 +46,8 @@ class BaseService: NSObject {
     
     static func showLoading() {
         if let topViewController = UIApplication.topViewController() {
-            activityIndicatorView.hidesWhenStopped = true
-            activityIndicatorView.startAnimating()
             topViewController.view.addSubview(activityIndicatorView)
+            activityIndicatorView.startAnimating()
         }
     }
     

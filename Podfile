@@ -18,5 +18,5 @@ target 'Template' do
     # Animation
 #    pod 'ViewAnimator'
 #    pod 'JTMaterialTransition'
-#    pod 'NVActivityIndicatorView'
+    pod 'NVActivityIndicatorView'
 end
