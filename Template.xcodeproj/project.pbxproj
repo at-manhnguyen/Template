@@ -16,7 +16,6 @@
 		4B490A95205A173F0095E385 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A74205A173F0095E385 /* AppConfig.swift */; };
 		4B490A96205A173F0095E385 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A75205A173F0095E385 /* APIPath.swift */; };
 		4B490A97205A173F0095E385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B490A78205A173F0095E385 /* Assets.xcassets */; };
-		4B490A98205A173F0095E385 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B490A7A205A173F0095E385 /* FontAwesome.otf */; };
 		4B490A99205A173F0095E385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B490A7C205A173F0095E385 /* LaunchScreen.storyboard */; };
 		4B490A9A205A173F0095E385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A7E205A173F0095E385 /* AppDelegate.swift */; };
 		4B490A9D205A173F0095E385 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A84205A173F0095E385 /* Common.swift */; };
@@ -25,6 +24,9 @@
 		4B490AA1205A17FD0095E385 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B490AA0205A17FD0095E385 /* SplashScreen.xib */; };
 		4B490AA3205A20530095E385 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490AA2205A20530095E385 /* UserObject.swift */; };
 		4B490AA6205A2AC20095E385 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490AA5205A2AC20095E385 /* BaseViewController.swift */; };
+		4B490AA8205A30FC0095E385 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B490A7A205A173F0095E385 /* FontAwesome.otf */; };
+		4B490AAC205A516B0095E385 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490AAA205A516B0095E385 /* HomeViewController.swift */; };
+		4B490AAD205A516B0095E385 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B490AAB205A516B0095E385 /* HomeViewController.xib */; };
 		8B5227C4473F56882DD7B496 /* Pods_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B1082B18278654B5534C2F /* Pods_Template.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		4B490AA0205A17FD0095E385 /* SplashScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
 		4B490AA2205A20530095E385 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		4B490AA5205A2AC20095E385 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4B490AAA205A516B0095E385 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B490AAB205A516B0095E385 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		A3B1082B18278654B5534C2F /* Pods_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2888E3FB123394D149168C1 /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
 		ED50CEF7A93F3452F6AA38CC /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 		4B490A80205A173F0095E385 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B490AA9205A514D0095E385 /* HomeViewController */,
 				4B490AA4205A2AB30095E385 /* BaseViewController */,
 			);
 			path = Controllers;
@@ -212,6 +217,15 @@
 				4B490AA5205A2AC20095E385 /* BaseViewController.swift */,
 			);
 			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		4B490AA9205A514D0095E385 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B490AAA205A516B0095E385 /* HomeViewController.swift */,
+				4B490AAB205A516B0095E385 /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
 			sourceTree = "<group>";
 		};
 		CF98567D4FA262D896D15DA1 /* Frameworks */ = {
@@ -295,8 +309,9 @@
 			files = (
 				4B490A97205A173F0095E385 /* Assets.xcassets in Resources */,
 				4B490A99205A173F0095E385 /* LaunchScreen.storyboard in Resources */,
+				4B490AAD205A516B0095E385 /* HomeViewController.xib in Resources */,
+				4B490AA8205A30FC0095E385 /* FontAwesome.otf in Resources */,
 				4B490AA1205A17FD0095E385 /* SplashScreen.xib in Resources */,
-				4B490A98205A173F0095E385 /* FontAwesome.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +392,7 @@
 				4B490A91205A173F0095E385 /* Strings.swift in Sources */,
 				4B490AA3205A20530095E385 /* UserObject.swift in Sources */,
 				4B490A89205A173F0095E385 /* BaseService.swift in Sources */,
+				4B490AAC205A516B0095E385 /* HomeViewController.swift in Sources */,
 				4B490AA6205A2AC20095E385 /* BaseViewController.swift in Sources */,
 				4B490A9A205A173F0095E385 /* AppDelegate.swift in Sources */,
 				4B490A9F205A173F0095E385 /* Foundation+Extensions.swift in Sources */,
