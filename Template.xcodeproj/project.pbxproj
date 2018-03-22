@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2F2C3F2063AFC5002780BB /* PhotoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F2C3D2063AFC5002780BB /* PhotoPreviewViewController.swift */; };
+		4B2F2C402063AFC5002780BB /* PhotoPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F2C3E2063AFC5002780BB /* PhotoPreviewViewController.xib */; };
+		4B2F2C442063B01E002780BB /* TemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F2C422063B01E002780BB /* TemplateViewController.swift */; };
+		4B2F2C452063B01E002780BB /* TemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F2C432063B01E002780BB /* TemplateViewController.xib */; };
+		4B2F2C492063B28F002780BB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2F2C472063B28F002780BB /* TestViewController.swift */; };
+		4B2F2C4A2063B28F002780BB /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F2C482063B28F002780BB /* TestViewController.xib */; };
 		4B490A89205A173F0095E385 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A66205A173E0095E385 /* BaseService.swift */; };
 		4B490A8B205A173F0095E385 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A69205A173E0095E385 /* UserService.swift */; };
 		4B490A8E205A173F0095E385 /* GoogleServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B490A6C205A173E0095E385 /* GoogleServices.swift */; };
@@ -31,6 +37,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B2F2C3D2063AFC5002780BB /* PhotoPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPreviewViewController.swift; sourceTree = "<group>"; };
+		4B2F2C3E2063AFC5002780BB /* PhotoPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoPreviewViewController.xib; sourceTree = "<group>"; };
+		4B2F2C422063B01E002780BB /* TemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateViewController.swift; sourceTree = "<group>"; };
+		4B2F2C432063B01E002780BB /* TemplateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemplateViewController.xib; sourceTree = "<group>"; };
+		4B2F2C472063B28F002780BB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		4B2F2C482063B28F002780BB /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		4B490A4F205A0AFD0095E385 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B490A66205A173E0095E385 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		4B490A69205A173E0095E385 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
@@ -70,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B2F2C3C2063AFC5002780BB /* PreviewPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				4B2F2C3D2063AFC5002780BB /* PhotoPreviewViewController.swift */,
+				4B2F2C3E2063AFC5002780BB /* PhotoPreviewViewController.xib */,
+			);
+			path = PreviewPhoto;
+			sourceTree = "<group>";
+		};
+		4B2F2C412063AFFB002780BB /* TemplateViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B2F2C422063B01E002780BB /* TemplateViewController.swift */,
+				4B2F2C432063B01E002780BB /* TemplateViewController.xib */,
+			);
+			path = TemplateViewController;
+			sourceTree = "<group>";
+		};
+		4B2F2C462063B281002780BB /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B2F2C472063B28F002780BB /* TestViewController.swift */,
+				4B2F2C482063B28F002780BB /* TestViewController.xib */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
 		4B490A46205A0AFD0095E385 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +218,9 @@
 		4B490A80205A173F0095E385 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4B2F2C462063B281002780BB /* TestViewController */,
+				4B2F2C412063AFFB002780BB /* TemplateViewController */,
+				4B2F2C3C2063AFC5002780BB /* PreviewPhoto */,
 				4B490AA9205A514D0095E385 /* HomeViewController */,
 				4B490AA4205A2AB30095E385 /* BaseViewController */,
 			);
@@ -307,11 +349,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2F2C402063AFC5002780BB /* PhotoPreviewViewController.xib in Resources */,
 				4B490A97205A173F0095E385 /* Assets.xcassets in Resources */,
 				4B490A99205A173F0095E385 /* LaunchScreen.storyboard in Resources */,
 				4B490AAD205A516B0095E385 /* HomeViewController.xib in Resources */,
 				4B490AA8205A30FC0095E385 /* FontAwesome.otf in Resources */,
 				4B490AA1205A17FD0095E385 /* SplashScreen.xib in Resources */,
+				4B2F2C4A2063B28F002780BB /* TestViewController.xib in Resources */,
+				4B2F2C452063B01E002780BB /* TemplateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +410,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Template/Pods-Template-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/JTMaterialTransition/JTMaterialTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftUtils/SwiftUtils.framework",
@@ -373,6 +420,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTMaterialTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftUtils.framework",
@@ -398,11 +447,14 @@
 				4B490AA6205A2AC20095E385 /* BaseViewController.swift in Sources */,
 				4B490A9A205A173F0095E385 /* AppDelegate.swift in Sources */,
 				4B490A9F205A173F0095E385 /* Foundation+Extensions.swift in Sources */,
+				4B2F2C442063B01E002780BB /* TemplateViewController.swift in Sources */,
 				4B490A96205A173F0095E385 /* APIPath.swift in Sources */,
 				4B490A93205A173F0095E385 /* Fonts.swift in Sources */,
 				4B490A8B205A173F0095E385 /* UserService.swift in Sources */,
+				4B2F2C3F2063AFC5002780BB /* PhotoPreviewViewController.swift in Sources */,
 				4B490A95205A173F0095E385 /* AppConfig.swift in Sources */,
 				4B490A8E205A173F0095E385 /* GoogleServices.swift in Sources */,
+				4B2F2C492063B28F002780BB /* TestViewController.swift in Sources */,
 				4B490A9E205A173F0095E385 /* UIKit+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

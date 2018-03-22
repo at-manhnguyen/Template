@@ -17,6 +17,7 @@ target 'Template' do
 
     # Animation
 #    pod 'ViewAnimator'
-#    pod 'JTMaterialTransition'
+    pod 'JTMaterialTransition'
     pod 'NVActivityIndicatorView'
+    pod 'FSPagerView', '~> 0.7'
 end
