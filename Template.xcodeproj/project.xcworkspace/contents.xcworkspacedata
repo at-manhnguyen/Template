@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Template.xcodeproj">
+      location = "self:/Users/ManhNQ/Documents/Project/Template/Template.xcodeproj">
    </FileRef>
 </Workspace>

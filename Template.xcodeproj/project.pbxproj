@@ -51,7 +51,7 @@
 		4B2F2C522064F2B1002780BB /* PhotoPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoPreviewViewController.xib; sourceTree = "<group>"; };
 		4B2F2C552064F2DB002780BB /* IntroduceViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceViewController1.swift; sourceTree = "<group>"; };
 		4B2F2C562064F2DB002780BB /* IntroduceViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroduceViewController1.xib; sourceTree = "<group>"; };
-		4B490A4F205A0AFD0095E385 /* KaySpa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaySpa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B490A4F205A0AFD0095E385 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B490A66205A173E0095E385 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		4B490A69205A173E0095E385 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		4B490A6C205A173E0095E385 /* GoogleServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleServices.swift; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		4B490A50205A0AFD0095E385 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B490A4F205A0AFD0095E385 /* KaySpa.app */,
+				4B490A4F205A0AFD0095E385 /* Template.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,9 +310,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B490A4E205A0AFD0095E385 /* KaySpa */ = {
+		4B490A4E205A0AFD0095E385 /* Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "KaySpa" */;
+			buildConfigurationList = 4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "Template" */;
 			buildPhases = (
 				16C53050947C8D8394BAD5E3 /* [CP] Check Pods Manifest.lock */,
 				4B490A4B205A0AFD0095E385 /* Sources */,
@@ -325,9 +325,9 @@
 			);
 			dependencies = (
 			);
-			name = KaySpa;
+			name = Template;
 			productName = Template;
-			productReference = 4B490A4F205A0AFD0095E385 /* KaySpa.app */;
+			productReference = 4B490A4F205A0AFD0095E385 /* Template.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -346,7 +346,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B490A4A205A0AFD0095E385 /* Build configuration list for PBXProject "KaySpa" */;
+			buildConfigurationList = 4B490A4A205A0AFD0095E385 /* Build configuration list for PBXProject "Template" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -359,7 +359,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B490A4E205A0AFD0095E385 /* KaySpa */,
+				4B490A4E205A0AFD0095E385 /* Template */,
 			);
 		};
 /* End PBXProject section */
@@ -649,7 +649,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B490A4A205A0AFD0095E385 /* Build configuration list for PBXProject "KaySpa" */ = {
+		4B490A4A205A0AFD0095E385 /* Build configuration list for PBXProject "Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B490A5F205A0AFD0095E385 /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "KaySpa" */ = {
+		4B490A61205A0AFD0095E385 /* Build configuration list for PBXNativeTarget "Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B490A62205A0AFD0095E385 /* Debug */,
