@@ -20,4 +20,5 @@ target 'Template' do
     pod 'JTMaterialTransition'
     pod 'NVActivityIndicatorView'
     pod 'FSPagerView', '~> 0.7'
+    pod 'ESTabBarController-swift'
 end

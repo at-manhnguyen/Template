@@ -12,5 +12,10 @@ class Colors {
 
     // Common Color
     static let MainColor = UIColor.RGB(58, 153, 252)
+    static let Gray1 = UIColor(rgb: 0x2A2E43)
+    static let Gray2 = UIColor(rgb: 0x454F63)
+    static let Gray3 = UIColor(rgb: 0x78849E)
+    static let Gray4 = UIColor(rgb: 0x959DAD)
+    static let Gray5 = UIColor(rgb: 0xDDDDDD)
     
 }
